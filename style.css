@@ -397,7 +397,7 @@ header > div > a > img {
 .section_title::after {
   content: "";
   height: 100%;
-  background-image: url("images/title/titleImg.webp");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -850,4 +850,17 @@ footer > .container {
 .footer_copyright > p {
   font-size: 15px;
   color: lightgray;
+}
+
+.section_title > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.4);
+  z-index: -1;
+  object-fit: cover;
+  bottom: 0;
+  right: 0;
 }
